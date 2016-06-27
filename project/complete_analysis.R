@@ -1,8 +1,8 @@
 if (!require("dplyr")) install.packages("dplyr"); library(dplyr)
 if (!require("rjson")) install.packages("rjson"); library(rjson)
 if (!require("stringr")) install.packages("stringr"); library(stringr)
-#wd <- 'C:/Users/Sarah/Documents/Data science/text_mining/scraped_data/metadata'
-#setwd(wd)
+wd <- 'scraped_data/metadata'
+setwd(wd)
 
 # LOAD IN THE 58109 DATA
 debate_58109 <- fromJSON(file = 'all_debates_0_1000' )
